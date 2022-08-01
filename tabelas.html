@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - tabelas </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <h2>Tabelas: table</h2>
+
+    <!-- aplicando a classe table -->
+
+    <table class="table">
+
+      <thead>
+
+        <tr>
+
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+
+        </tr>
+
+      </tbody>
+
+      <!--
+        lembrando que também existe o /tfooter
+      -->
+
+    </table>
+
+
+    <!-- aplicando a classe junto com formatações especificas como o table-dark-->
+
+    <h2>Tabela escura: table-dark</h2>
+
+    <table class="table table-dark">
+
+      <thead>
+
+        <tr>
+
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+
+        </tr>
+
+      </tbody>
+
+      <!--
+        lembrando que também existe o /tfooter
+      -->
+
+    </table>
+    
+
+    <!-- formatando apenas o cabeçalho, no b4 era thead-dark, atualmente você pode so aplicar as formatações já usadas em table-->
+
+    <h2>Tabela com cabeçalho escuro: thead-dark</h2>
+
+    <table class="table">
+
+      <thead class="table-dark">
+
+        <tr>
+
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+
+        </tr>
+
+      </tbody>
+
+      <!--
+        lembrando que também existe o /tfooter
+      -->
+
+    </table>
+
+    
+    <!-- classe de lista striped (cor escura alternando entre conteudos), bordered (com bordas) e borderless (sem borda) -->
+
+    <h2>Tabela com formatações: table-striped, 
+      table-bordered, table-borderless</h2>
+
+    <table class="table table-striped table-borderless">
+
+      <thead>
+
+        <tr>
+
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+
+        </tr>
+
+      </tbody>
+
+      <!--
+        lembrando que também existe o /tfooter
+      -->
+
+    </table>
+
+
+    <!-- classes de tabela com contexto de cores, alterando nas "tr" -->
+
+    <h2>Classes contextuais: table-success, table-danger, table...</h2>
+    
+    <table class="table">
+
+      <thead>
+
+        <tr>
+
+          <th>#</th>
+          <th>Produto</th>
+          <th>Marca</th>
+          <th>Preço</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr class="table-danger">
+
+          <td>00001</td>
+          <td>Iphone X</td>
+          <td>Apple</td>
+          <td>R$ 6.999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00002</td>
+          <td>Nexus 5</td>
+          <td>LG</td>
+          <td>R$ 999</td>
+
+        </tr>
+
+        <tr>
+
+          <td>00003</td>
+          <td>Notebook VAIO</td>
+          <td>Sony</td>
+          <td>R$ 1.999</td>
+
+        </tr>
+
+      </tbody>
+
+      <!--
+        lembrando que também existe o /tfooter
+      -->
+
+    </table>
+
+
+    <!-- classes para tamanhos -->
+
+    <h2>Tabela pequena: table-sm</h2>
+
+      <table class="table table-sm">
+
+        <thead>
+  
+          <tr>
+  
+            <th>#</th>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Preço</th>
+  
+          </tr>
+  
+        </thead>
+  
+        <tbody>
+  
+          <tr>
+  
+            <td>00001</td>
+            <td>Iphone X</td>
+            <td>Apple</td>
+            <td>R$ 6.999</td>
+  
+          </tr>
+  
+          <tr>
+  
+            <td>00002</td>
+            <td>Nexus 5</td>
+            <td>LG</td>
+            <td>R$ 999</td>
+  
+          </tr>
+  
+          <tr>
+  
+            <td>00003</td>
+            <td>Notebook VAIO</td>
+            <td>Sony</td>
+            <td>R$ 1.999</td>
+  
+          </tr>
+  
+        </tbody>
+  
+        <!--
+          lembrando que também existe o /tfooter
+        -->
+  
+      </table>
+    
+
+    <!-- formato de tabela responsiva-->
+
+    <h2>Tabela responsiva: table-responsive</h2>
+
+    <div class="table-responsive-sm">
+
+      <table class="table">
+
+        <thead>
+  
+          <tr>
+  
+            <th>#</th>
+            <th>Produto</th>
+            <th>Marca</th>
+            <th>Marca</th>
+            <th>Marca</th>
+            <th>Marca</th>
+            <th>Preço</th>
+  
+          </tr>
+  
+        </thead>
+  
+        <tbody>
+  
+          <tr>
+  
+            <td>00001</td>
+            <td>Iphone X</td>
+            <td>Apple</td>
+            <td>Apple</td>
+            <td>Apple</td>
+            <td>Apple</td>
+            <td>R$ 6.999</td>
+  
+          </tr>
+  
+          <tr>
+  
+            <td>00002</td>
+            <td>Nexus 5</td>
+            <td>LG</td>
+            <td>R$ 999</td>
+  
+          </tr>
+  
+          <tr>
+  
+            <td>00003</td>
+            <td>Notebook VAIO</td>
+            <td>Sony</td>
+            <td>R$ 1.999</td>
+  
+          </tr>
+  
+        </tbody>
+  
+        <!--
+          lembrando que também existe o /tfooter
+        -->
+  
+      </table>
+
+    </div>
+    
+    
+    <!-- trabalhando com a criação de paginação simples -->
+
+    <h2>Paginação: pagination, page-item, page-link - active, disabled</h2>
+
+    <nav>
+
+      <ul class="pagination">
+
+        <li class="page-item">
+          <a class="page-link" href="">Anterior</a>
+        </li>
+
+        <li class="page-item active">
+          <a class="page-link" href="">1</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">2</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">Próximo</a>
+        </li>
+        
+      </ul>
+
+    </nav>
+
+
+    <!-- trabalhando com alinhamento-->
+
+    <h2>Alinhamento: justify-content-alinhamento(center, end) </h2>
+
+    <nav>
+
+      <ul class="pagination justify-content-center">
+
+        <li class="page-item">
+          <a class="page-link" href="">Anterior</a>
+        </li>
+
+        <li class="page-item active">
+          <a class="page-link" href="">1</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">2</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">Próximo</a>
+        </li>
+        
+      </ul>
+
+    </nav>
+    
+
+    <!-- trabalhando com tamanhos igual feito anteriormente-->
+
+    <h2>Tamanho: pagination-TAMANHO(sm, lg) </h2>
+
+     <nav>
+
+      <ul class="pagination pagination-lg">
+
+        <li class="page-item">
+          <a class="page-link" href="">Anterior</a>
+        </li>
+
+        <li class="page-item active">
+          <a class="page-link" href="">1</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">2</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">Próximo</a>
+        </li>
+        
+      </ul>
+
+    </nav>
+
+    
+    <!-- utilizando setas na paginação-->
+
+    <h2>Setas </h2>
+    
+    <nav>
+
+      <ul class="pagination">
+
+        <li class="page-item">
+          <a class="page-link" href=""><span>&laquo;</span></a>
+        </li>
+
+        <li class="page-item active">
+          <a class="page-link" href="">1</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href="">2</a>
+        </li>
+
+        <li class="page-item">
+          <a class="page-link" href=""><span>&raquo;</span></a>
+        </li>
+        
+      </ul>
+
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </body>
+   
+</html>

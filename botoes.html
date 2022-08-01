@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - botões</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- classe botões 
+    formatação padrao: btn
+    formatação específicas:
+    btn-primary, btn-secondary, btn-success, btn-info,
+    btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->
+
+    <h3>Botões</h3>
+    <button class="btn btn-primary" type="button">Clique</button>
+
+    <h3>Botões com diferentes tags</h3>
+    <a class="btn btn=danger" href="#">Link</a>
+    <button class="btn btn-dark" type="submit">Submit</button>
+    <input class="btn btn-light" type="button" value="Button">
+    <input class="btn btn-success" type="submit" value="Input Submit">
+    <input class="btn btn-warning" type="reset" value="Reset">
+
+
+    <!-- classe de botões com contorno
+    btn-outline-<formato>
+    -->
+
+    <h3>Botões com contorno</h3>
+    <button class="btn btn-outline-primary " type="button">Clique</button>
+
+
+    <!-- classe para tamanhos de botões
+    opções: btn-lg, btn-sm, btn-block
+    -->
+
+    <h3>Tamanhos dos botões</h3>
+    <button class="btn btn-primary btn-lg" type="button">Grande</button>
+    <button class="btn btn-primary btn-sm" type="button">Pequeno</button>
+
+    <!-- atualmente, pra fazer um botão em bloco, há a necessidade de um elemento pai com uma formatação para tal,que passe
+    algo para o filho-->
+
+    <div class="d-grid gap-2">
+
+    <button class="btn btn-primary" type="button">Bloco</button>
+
+    </div>
+
+
+    <!-- classe de stados dos botões
+    opções: active, disabled
+    -->
+
+    <h3>Estados de botões</h3>
+    <button class="btn btn-primary" type="button">Normal</button>
+    <button class="btn btn-primary active" type="button">Ativo</button>
+    <button class="btn btn-primary disabled" type="button">Inativo</button>
+
+    <br>
+
+    <button class="btn btn-primary" data-toggle="button" type="button">Alternar</button>
+
+
+    <!-- classe para formar grupo de botões na horizontal e vertical de forma complementar--> 
+
+    <h3>Grupos de botões - horizontal</h3>
+
+    <div class="btn-group">
+
+        <button class="btn btn-primary" type="button">Esquerda</button>
+        <button class="btn btn-primary" type="button">Centro</button>
+        <button class="btn btn-primary" type="button">Direita</button>
+
+    </div>
+
+    <!-- na vertical -->
+
+    <h3>Grupos de botões - vertical</h3>
+
+    <div class="btn-group-vertical">
+
+        <button class="btn btn-primary" type="button">Topo</button>
+        <button class="btn btn-primary" type="button">Meio</button>
+        <button class="btn btn-primary" type="button">Fundo</button>
+
+    </div>
+
+    
+    <!-- classe  para criar botões como toolbar-->
+
+    <h3>Toolbar de botões</h3>
+
+    <div class="btn-toolbar">
+
+        <div>
+
+           <button class="btn btn-primary" type="button">1</button>
+           <button class="btn btn-primary" type="button">2</button>
+           <button class="btn btn-primary" type="button">3</button>
+
+        </div>
+
+        <div>
+
+            <button class="btn btn-primary" type="button">4</button>
+            <button class="btn btn-primary" type="button">5</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- classe botões dropdown, muito usado pra criar menu ou os complementos de um menu -->
+
+    <h3>Botões dropdown</h3>
+
+    <div class="dropdown">
+
+        <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" type="button">
+            Clique
+        </button>
+
+        <div class="dropdown-menu">
+
+            <a href="#" class="dropdown-item">Link 1</a>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </body>
+   
+</html>
